@@ -4,8 +4,8 @@
   <sensor type="accelerometer" category="linux_driver"> <!--category="linux_driver" is default-->
     <platform_config driver_node_type="input_event"> <!-- driver_node_type="input_event" is default -->
       <name>kionix_accel</name>
-      <activate_node>/sys/bus/i2c/devices/2-0072/enable</activate_node>
-      <poll_node>/sys/bus/i2c/devices/2-0072/delay</poll_node>
+      <activate_node>/sys/class/input/event4/device/device/enable</activate_node>
+      <poll_node>/sys/class/input/event4/device/device/delay</poll_node>
       <calibration_file></calibration_file>
       <calibration_function></calibration_function>
     </platform_config>
@@ -17,8 +17,8 @@
       <resolution unit="GRAVITY_EARTH">0.0009765625</resolution>
       <power>0.11</power>
       <minDelay>10000</minDelay>
-      <mapper axis_x="Y" axis_y="X" axis_z="Z"></mapper>
-      <scale axis_x="-0.0009765625" axis_y="0.0009765625" axis_z="0.0009765625" unit="GRAVITY_EARTH"></scale>
+      <mapper axis_x="X" axis_y="Y" axis_z="Z"></mapper>
+      <scale axis_x="0.0009765625" axis_y="0.0009765625" axis_z="0.0009765625" unit="GRAVITY_EARTH"></scale>
     </device>
   </sensor>
   <sensor type="gyroscope">
