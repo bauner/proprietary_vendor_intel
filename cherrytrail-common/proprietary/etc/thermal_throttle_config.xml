@@ -100,18 +100,6 @@
                 </ThrottleValues>
         </ContributingDeviceInfo>
 -->
-        <ContributingDeviceInfo>
-                <CDeviceName>GpuDVFS</CDeviceName>
-                <CDeviceID>9</CDeviceID>
-                <CDeviceClassPath>com.intel.thermal.GpuDvfsControl</CDeviceClassPath>
-                <ThrottleValues>
-                        <ThrottleNormal>600</ThrottleNormal>
-                        <ThrottleNormal1>600</ThrottleNormal1>
-                        <ThrottleNormal2>200</ThrottleNormal2>
-                        <ThrottleWarning>200</ThrottleWarning>
-                        <ThrottleAlert>200</ThrottleAlert>
-                </ThrottleValues>
-        </ContributingDeviceInfo>
 
 <Profile>
 	<Name>Default</Name>
@@ -135,24 +123,6 @@
 		<CoolingDeviceInfo>
 			<CoolingDevId>1</CoolingDevId>
 		</CoolingDeviceInfo>
-                <CoolingDeviceInfo>
-                        <CoolingDeviceStates>5</CoolingDeviceStates>
-                        <CoolingDevId>9</CoolingDevId>
-                        <ThrottleDeviceMask>
-                            <Normal>0</Normal>
-                            <Normal1>0</Normal1>
-                            <Normal2>1</Normal2>
-                            <Warning>1</Warning>
-                            <Alert>1</Alert>
-                        </ThrottleDeviceMask>
-                        <DethrottleDeviceMask>
-                            <Normal>1</Normal>
-                            <Normal1>1</Normal1>
-                            <Normal2>0</Normal2>
-                            <Warning>0</Warning>
-                            <Alert>0</Alert>
-                        </DethrottleDeviceMask>
-                </CoolingDeviceInfo>
 		<CoolingDeviceInfo>
 			<CoolingDevId>2</CoolingDevId>
 		</CoolingDeviceInfo>
@@ -211,24 +181,6 @@
 		<CoolingDeviceInfo>
 			<CoolingDevId>1</CoolingDevId>
 		</CoolingDeviceInfo>
-                <CoolingDeviceInfo>
-                        <CoolingDeviceStates>5</CoolingDeviceStates>
-                        <CoolingDevId>9</CoolingDevId>
-                        <ThrottleDeviceMask>
-                            <Normal>0</Normal>
-                            <Normal1>0</Normal1>
-                            <Normal2>1</Normal2>
-                            <Warning>1</Warning>
-                            <Alert>1</Alert>
-                        </ThrottleDeviceMask>
-                        <DethrottleDeviceMask>
-                            <Normal>1</Normal>
-                            <Normal1>1</Normal1>
-                            <Normal2>0</Normal2>
-                            <Warning>0</Warning>
-                            <Alert>0</Alert>
-                        </DethrottleDeviceMask>
-                </CoolingDeviceInfo>
 		<CoolingDeviceInfo>
 			<CoolingDevId>2</CoolingDevId>
 		</CoolingDeviceInfo>
