@@ -18,7 +18,7 @@
       <power>0.11</power>
       <minDelay>10000</minDelay>
       <mapper axis_x="X" axis_y="Y" axis_z="Z"></mapper>
-      <scale axis_x="0.0009765625" axis_y="0.0009765625" axis_z="0.0009765625" unit="GRAVITY_EARTH"></scale>
+      <scale axis_x="-0.0009765625" axis_y="-0.0009765625" axis_z="0.0009765625" unit="GRAVITY_EARTH"></scale>
     </device>
   </sensor>
   <sensor type="gyroscope">
